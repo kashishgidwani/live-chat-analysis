@@ -1,0 +1,13 @@
+# Core
+kafka-python>=2.0.2
+pymongo>=4.3.0
+
+# Dashboard
+streamlit>=1.22.0
+
+# Alerts
+python-telegram-bot>=20.4
+
+# Utilities
+python-dotenv>=1.0.0
+python-dotenv>=1.0.0

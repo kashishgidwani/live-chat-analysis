@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  test-email:
+    build:
+      context: .
+      dockerfile: src/sinks/Dockerfile
+    environment:
+      - SMTP_SERVER=${SMTP_SERVER}
+      - SMTP_PORT=${SMTP_PORT}
+      - SENDER_EMAIL=${SENDER_EMAIL}
+      - SENDER_PASSWORD=${SENDER_PASSWORD}
+      - RECEIVER_EMAIL=${RECEIVER_EMAIL}
+    command: python scripts/test_alerts.py

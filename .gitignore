@@ -1,0 +1,32 @@
+# .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.local
+.env.prod
+
+# Data and Models
+data/
+models/
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
