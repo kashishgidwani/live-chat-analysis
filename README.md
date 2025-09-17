@@ -2,8 +2,8 @@
 Real-time sentiment and toxicity analysis for YouTube Live chats using Kafka, Spark, and NLP transformers.
 
 ## Architecture
-![diagram](<ChatGPT Image Sep 16, 2025, 10_32_50 PM.png>)
 
+![diagram](architecture_diagram.png)
 The system consists of four main components:
 1. **Ingestion Service**: Fetches live chats from YouTube API and publishes to Kafka
 2. **Processing Service**: Consumes chats, runs NLP models, publishes enriched data
