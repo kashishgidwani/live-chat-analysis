@@ -11,3 +11,7 @@ python-telegram-bot>=20.4
 # Utilities
 python-dotenv>=1.0.0
 python-dotenv>=1.0.0
+
+google-api-python-client 
+kafka-python 
+python-dotenv
