@@ -14,6 +14,6 @@ The system consists of four main components:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/live-chat-nlp-pipeline.git
-   cd live-chat-nlp-pipeline
+   git clone https://github.com/kashishgidwani/live-chat-analysis.git
+   cd live-chat-analysis
 
