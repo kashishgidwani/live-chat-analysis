@@ -111,5 +111,6 @@ def main():
             logging.error(f"❌ An unexpected error occurred: {e}")
             time.sleep(30)
 
+# Main method
 if __name__ == "__main__":
     main()
